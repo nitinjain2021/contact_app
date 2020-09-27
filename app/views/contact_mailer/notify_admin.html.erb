@@ -1,0 +1,10 @@
+<h1>Contact info</h1>
+<ul>
+  <li>First name: <%= @contact.first_name %></li>
+  <li>Last name: <%= @contact.last_name %></li>
+  <li>Email: <%= @contact.email %></li>
+  <% if @contact.phone.present? %>
+    <li>Phone: <%= @contact.phone %></li>
+  <% end %>
+  <li>Message: <%= @contact.message %></li>
+</ul>

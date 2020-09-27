@@ -1,0 +1,7 @@
+one:
+  first_name: Hansson
+  last_name: Ron
+  email: hansson@ron.com
+  message: "This is just for Demo"
+invalid:
+  phone: "12345678"
