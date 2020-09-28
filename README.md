@@ -21,8 +21,12 @@ Things you may want to cover:
 
 * Services: job queues, cache servers
 
+* docker-compose build to create docker image
+
+* docker-compose up to start container
+
+* Add database.yml configuration
+
 * Create RoR project with a route /contact or /. All routes should redirect to this page or handle 404.
 
-* Use Restful routing approach to implement an endpoint that accepts form submission, saves to DB & sends an email to ENV["ADMIN_EMAIL"]
-
-* Add support for two languages. You can add a simple language selector anywhere in UI.
+* Use Restful routing approach to implement an endpoint that accepts form submission, saves to DB & sends an email to Admin
